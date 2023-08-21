@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.component-field {
+    display: flex;
+    align-items: center;
+}
+
+.component-select {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.component-prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.component-price {
+    font-weight: bold;
+}
+
+#total-price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
